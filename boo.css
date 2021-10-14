@@ -1,0 +1,86 @@
+.heading {
+    background-color: white;
+    font-style:initial;
+    font-size: larger;
+    text-align: center;
+    border-left:solid 10px green;
+    border-right: solid 10px green;
+    opacity: .8;
+    border-radius: 100px;
+    font-size: 40px;
+    position: relative; 
+}
+.heading img{
+   
+    float: left;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.booking h2{
+    padding-top: 10px;
+    padding-left: 500px;
+    text-decoration: underline;
+    font-family:cursive;
+    font-size: 30px;
+    color: black;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    opacity: .8;
+}
+.filter{
+    padding-top: 0px;
+    padding-left: 1000px;
+
+}
+.table{
+    border: 1;
+    
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50%;
+}
+.table1 {
+    border: 1px solid black;
+    width: 100%;
+    height: 90%;
+    font-size: 14px;
+    background-color: white;
+    opacity: .7;
+  }
+.table1 th{
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    width: auto;
+    height: auto;
+    width: 500px;
+}
+.table1 td{
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+    color: blue;
+    width: auto;
+    height: 40px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align:center;
+  padding: 20px 16px;
+  text-decoration: underline;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #eee;
+  color: cyan;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
